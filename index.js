@@ -12,7 +12,7 @@ const PORT = 5000;
 const JWT_SECRET = 'your_jwt_secret';
 
 // Connect to MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/todoApp', {
+mongoose.connect('https://todo-backend-93og.onrender.com', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
